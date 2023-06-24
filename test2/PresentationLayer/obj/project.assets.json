@@ -7834,11 +7834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\PresentationLayer\\PresentationLayer.csproj",
+      "projectPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\PresentationLayer\\PresentationLayer.csproj",
       "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\PresentationLayer\\obj\\",
+      "outputPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7859,17 +7859,17 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\Data_Layer\\Data_Layer.csproj": {
-              "projectPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\Data_Layer\\Data_Layer.csproj"
+            "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\Data_Layer\\Data_Layer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\Data_Layer\\Data_Layer.csproj"
             },
-            "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\ServiceLayer\\ServiceLayer.csproj"
             },
-            "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\TestLayer\\TestLayer.csproj": {
-              "projectPath": "C:\\Users\\Kris\\Desktop\\Test2-main\\test2\\TestLayer\\TestLayer.csproj"
+            "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\TestLayer\\TestLayer.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Documents\\GitHub\\Test2\\test2\\TestLayer\\TestLayer.csproj"
             }
           }
         }
