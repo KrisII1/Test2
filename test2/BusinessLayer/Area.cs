@@ -27,5 +27,10 @@ namespace BusinessLayer
         {
             Users = new List<User>();
         }
+
+        public override string ToString()
+        {
+            return $"{Name}";
+        }
     }
 }

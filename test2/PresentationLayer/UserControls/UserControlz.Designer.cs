@@ -170,6 +170,7 @@
             this.label2.Size = new System.Drawing.Size(55, 21);
             this.label2.TabIndex = 31;
             this.label2.Text = "Name:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -180,6 +181,7 @@
             this.label3.Size = new System.Drawing.Size(87, 21);
             this.label3.TabIndex = 32;
             this.label3.Text = "Last Name:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -190,6 +192,7 @@
             this.label4.Size = new System.Drawing.Size(84, 21);
             this.label4.TabIndex = 33;
             this.label4.Text = "Username:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -200,6 +203,7 @@
             this.label5.Size = new System.Drawing.Size(79, 21);
             this.label5.TabIndex = 34;
             this.label5.Text = "Password:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -210,6 +214,7 @@
             this.label6.Size = new System.Drawing.Size(51, 21);
             this.label6.TabIndex = 35;
             this.label6.Text = "Email:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // UserControlz
             // 

@@ -19,9 +19,10 @@ namespace BusinessLayer
         public List<User> Users { get; set; }
 
 
-        public Interest(string name)
+        public Interest(string name, Area area)
         {
             Name = name;
+            Area = area;
             Users = new List<User>();
         }
 

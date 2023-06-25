@@ -24,7 +24,8 @@ namespace TestLayer
         [SetUp]
         public void CreateInterest()
         {
-            interest = new Interest("pluvane");
+            Area area = new Area("voda");
+            interest = new Interest("pluvane", area);
 
             u1 = new User("Georgi", "Ivanov", 20, "georgi123", "123456", "georgi@abv.bg");
             u2 = new User("Ivan", "Petrov", 22, "ivan321", "7654321", "ivan@abv.bg");
@@ -49,7 +50,8 @@ namespace TestLayer
         [Test]
         public void Create()
         {
-            Interest newInterest = new Interest("powerlift");
+            Area area2 = new Area("tejesti");
+            Interest newInterest = new Interest("powerlift", area2);
 
             int InterestsBefore = SetupFixture.dbContext.Interests.Count();
             context.Create(newInterest);

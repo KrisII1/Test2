@@ -24,22 +24,14 @@ namespace PresentationLayer.UserControls
             LoadInteres();
         }
       
-        private void interesDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex < 0 || e.ColumnIndex < 0)
-            {
-                MessageBox.Show("🔥");
-                return;
-            }
-            selectedInterest = interesDataGridView.Rows[e.RowIndex].DataBoundItem as Interest;
-            FillTextBoxes(GetSelectedInterest());
-        }
+ 
 
         private void FillTextBoxes(Interest selectedInterest)
         {
             if (selectedInterest != null)
             {
                 textBox1.Text = selectedInterest.Name;
+                textBox2.Text = selectedInterest.Area.ToString();
             }
         }
         private void LoadInteres()
@@ -83,7 +75,9 @@ namespace PresentationLayer.UserControls
             try
             {
                 string name = textBox1.Text;
-                Interest interests = new Interest(name);
+                Area area = new Area(textBox2.Text);
+                Interest interests = new Interest(name, area);
+                
                 dbManager.Create(interests);
                 MessageBox.Show("Interes created successfully!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadInteres();
@@ -120,6 +114,27 @@ namespace PresentationLayer.UserControls
         {
             selectedInterest = null;
             ClearTextBoxes();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void interesDataGridView_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0)
+            {
+                MessageBox.Show("🔥");
+                return;
+            }
+            selectedInterest = interesDataGridView.Rows[e.RowIndex].DataBoundItem as Interest;
+            FillTextBoxes(GetSelectedInterest());
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
